@@ -81,6 +81,8 @@ body {
   background: var(--white);
 }
 
+/* ------------------------ */
+
 .container {
   padding-inline: 15px;
 }
@@ -120,8 +122,9 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 61px;
   z-index: 4;
+  background: var(--bright-navy-blue);
 }
 
 .header-top {
@@ -166,6 +169,7 @@ body {
   margin-inline: auto;
 }
 
+/* img */
 .header-top .logo p {
   max-width: 100px;
   color: var(--white);
@@ -237,7 +241,7 @@ body {
   z-index: 3;
 }
 
-.header .navbar.active {
+.navbar.active {
   right: 0;
   visibility: visible;
   pointer-events: all;
@@ -251,6 +255,7 @@ body {
   padding: 40px 15px;
 }
 
+/* img */
 .navbar-top .logo p {
   width: 150px;
 }
@@ -264,12 +269,14 @@ body {
   --ionicon-stroke-width: 80px;
 }
 
-.navbar-list,
-.navbar-list li {
+.navbar-list {
   border-top: 1px solid hsla(0, 0%, 0%, 0.1);
 }
+.navbar-list li {
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+}
 
-.navbar-list {
+.navbar-link {
   padding: 15px 20px;
   color: var(--jet);
   font-weight: var(--fw-500);

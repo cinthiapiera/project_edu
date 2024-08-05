@@ -79,6 +79,7 @@ html {
 
 body {
   background: var(--white);
+  /* height: 200vh; funcionalidad del menu top*/ 
 }
 
 /* ------------------------ */
@@ -124,7 +125,7 @@ body {
   width: 100%;
   padding-top: 61px;
   z-index: 4;
-  background: var(--bright-navy-blue);
+  /* background: var(--bright-navy-blue); */
 }
 
 .header-top {
@@ -136,6 +137,7 @@ body {
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   padding-block: 15px;
   z-index: 1;
+  /* background: var(--gunmetal); */
 }
 
 .header.active .header-top {
@@ -304,3 +306,9 @@ body {
   pointer-events: all;
 }
 /* ------------------------------- */
+
+/* Hero */
+
+/* .hero{
+  background-image: ;
+} */

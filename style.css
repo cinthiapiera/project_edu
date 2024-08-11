@@ -79,7 +79,7 @@ html {
 
 body {
   background: var(--white);
-   height: 200vh; /* funcionalidad del menu top*/
+  /* height: 200vh;  funcionalidad del menu top*/
 }
 
 /* ------------------------ */
@@ -368,3 +368,53 @@ body {
 }
 
 /* ------------------------------- */
+
+/* ---------ABOUT--------- */
+
+.about-header {
+  display: grid;
+  gap: 2rem;
+  padding: 30px;
+}
+
+.about-image img{
+  max-width: 350px;
+  margin: auto;
+}
+
+.about-content .paragraph{
+  margin-block: 2rem;
+  color: var(--black-coral);
+}
+
+.about-grid {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem 1rem;
+  border-bottom: 1px solid var(--gainsboro);
+}
+
+.about-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.about-card span{
+  padding: 10px 10px;
+  font-size: var(--fs-3);
+  color: var(--black);
+  background-color: var(--gainsboro);
+  border-radius: 100%;
+}
+
+.about-card h4 {
+  margin-bottom: 5px;
+  font-size: var(--fs-3);
+  font-weight: var(--fw-500);
+  color: var(--black);
+}
+
+.about-card p {
+  color: var(--black-coral);
+}

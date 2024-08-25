@@ -395,7 +395,7 @@ body {
 
 .about .container {
   display: grid;
-  gap: 60px;
+  gap: 30px;
   margin-top: 50px;
 }
 
@@ -406,6 +406,7 @@ body {
 .about-list-item {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
